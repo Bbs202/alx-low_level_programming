@@ -1,7 +1,9 @@
 #include<stdio.h>
 #include<string.h>
 /**
- * Main function prints string
+* main - function prints string
+*
+* Return: main
 */
 int main(void)
 {
