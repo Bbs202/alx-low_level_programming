@@ -1,11 +1,20 @@
 #include<stdio.h>
+#include<sys/types.h>
+#include<string.h>
+#include<unistd.h>
 /**
 * main - prints string
+* write - print
 *
-* Return - 1
+* filedes: integer
+* buf: string
+* nbyte: integer
+*
+* Return: 0
 */
-int main(void)
+int write(int filedes, const char *buf, unsigned int nbyte);
+int main(int args, char **argv)
 {
-strcpy("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
-return (0);
+write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 13);
+return (1);
 }
