@@ -4,17 +4,11 @@
 #include<unistd.h>
 /**
 * main - prints string
-* write - print
-*
-* filedes: integer
-* buf: string
-* nbyte: integer
 *
 * Return: 0
 */
-int write(int filedes, const char *buf, unsigned int nbyte);
-int main(int args, char **argv)
+int main(void)
 {
-write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 13);
+write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 56);
 return (1);
 }
