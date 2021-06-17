@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<string.h>
-/*main function prints string*/
+/**
+*main function prints string
+*/
 int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
