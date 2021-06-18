@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
 
 /* main - prints number and if positive, negative or zero */
@@ -19,20 +20,21 @@ n = rand() - RAND_MAX / 2;
 /* your code goes there */
 if (n > 0)
 {
-printf("%d, positve", n);
+printf("%d is positve", n);
 }
 else
-{
 if (n < 0)
-printf("%d, negative", n);
+{
+printf("%d is negative", n);
 }
 else
-{
 if (n == 0)
-printf("$d, is zero", n);
+{
+printf("%d is zero", n);
 }
 else
 {
 printf("invalid number");
+}
 return (0);
 }
