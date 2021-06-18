@@ -6,8 +6,8 @@
 */
 int main(void)
 {
-char c;
-char K;
+int c;
+int K;
 for (c = 'a'; c <= 'z'; ++c)
 {
 putchar(c);
@@ -16,5 +16,6 @@ for (K = 'A'; K <= 'Z'; ++K)
 {
 putchar(K);
 }
+putchar('\n');
 return (0);
 }
