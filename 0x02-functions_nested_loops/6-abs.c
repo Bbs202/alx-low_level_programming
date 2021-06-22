@@ -14,4 +14,5 @@ int k;
 k = n * -1;
 return (k);
 }
+return (n);
 }
