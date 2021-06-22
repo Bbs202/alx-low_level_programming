@@ -3,6 +3,8 @@
 /**
 * _islower - Retturn lower case character
 *
+* @c: value
+*
 * Return: 1
 */
 int _islower(int c)
