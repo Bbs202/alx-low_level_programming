@@ -1,16 +1,5 @@
 #include "holberton.h"
 /**
-* main - prints lowercase alphabets
-* print_alphabet - loops over the lower case alphabet
-*
-* Return: 0
-*/
-int main(void)
-{
-print_alphabet();
-return (0);
-}
-/**
 * print_alphabet - loops over the lower case alphabet
 *
 * Return: 0
