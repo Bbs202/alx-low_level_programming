@@ -1,16 +1,14 @@
+#include <stdio.h>
 #include "holberton.h"
 /**
-* positive_or_negative - prints zero if n is zero
-*
-* @n: integer
+* main - prints zero if n is zero
 *
 * Return: 0
 */
-int positive_or_negative(int n)
+int main(void)
 {
-if (n == 0)
-{
-printf("%d is zero", n);
-}
+int a;
+a = 0;
+positive_or_negative(a);
 return (0);
 }
