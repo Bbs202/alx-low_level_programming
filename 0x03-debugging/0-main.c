@@ -2,7 +2,6 @@
 
 /**
 * main - prints zero if n is zero
-*
 * Return: 0
 */
 
