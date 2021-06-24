@@ -8,14 +8,14 @@
 */
 int main(void)
 {
-long long num;
+long int num;
 int maxPrime;
 int oddPrime;
 num = 612852475143;
 maxPrime = 0;
 oddPrime = 3;
 
-while (num % 2 == 0
+while (num % 2 == 0)
 {
 maxPrime = 2;
 num /= 2;

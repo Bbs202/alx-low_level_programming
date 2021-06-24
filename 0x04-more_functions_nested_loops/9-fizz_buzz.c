@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include "holberton.h"
 /**
-* fizz_buzz - prints from 1-100
+* main - prints from 1-100
 *
 * Return: 0
 */
 
-void fizz_buzz(void)
+void main(void)
 {
 int i;
 for (i = 1; i <= 100; i++)

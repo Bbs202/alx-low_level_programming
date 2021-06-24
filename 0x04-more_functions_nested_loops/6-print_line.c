@@ -17,10 +17,10 @@ _putchar('\n');
 }
 else
 {
-for (r = 1; r < n; r++)
+for (r = 1; r <= n; r++)
 {
 _putchar('_');
 }
+_putchar('\n')
 }
-_putchar('\n');
 }
