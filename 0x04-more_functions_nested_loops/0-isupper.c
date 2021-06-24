@@ -2,6 +2,7 @@
 
 /**
 * _isupper - Checks for uppercase character
+*
 * @c: The character to be checked
 *
 * Return: 1 for uppercase character or 0 for anything else
@@ -12,6 +13,8 @@ if (c >= 65  && c <= 97 )
 {
 return (1);
 }
-
+else
+{
 return (0);
+}
 }

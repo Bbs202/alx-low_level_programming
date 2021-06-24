@@ -1,5 +1,4 @@
-#include "holberton.h"
-
+#include <stdio.h>
 /**
 * fizz_buzz - prints from 1-100
 *
