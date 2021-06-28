@@ -3,8 +3,10 @@
 #include <string.h>
 /**
 * swap_int - swaps two integers
+*
 * @a: integer
 * @b: integer
+*
 * Return: 0
 */
 

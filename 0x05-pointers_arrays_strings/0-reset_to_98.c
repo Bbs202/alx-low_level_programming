@@ -1,5 +1,4 @@
-#include"holberton.h"
-#include <stdio.h>
+#include "holberton.h"
 
 /**
 * reset_to_98 - points to an address
