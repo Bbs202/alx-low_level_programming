@@ -14,6 +14,6 @@ void _puts(char *str)
 int i;
 for (i = 0; i <= i - 1; i++)
 {
-_puchar(s[i]);
+_putchar(str[i]);
 }
 }
