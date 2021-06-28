@@ -1,19 +1,14 @@
-#include <stdio.h>
-#include <string.h>
+#include "holberton.h"
 
 /**
-* _puts - prints string
+* _puts - prints a string with newline
+* @str: the string to print
 *
-* @str:  string
-*
-* Return: 0
+* Return: void
 */
-
 void _puts(char *str)
 {
-int i;
-for (i = 0; i <= i - 1; i++)
-{
-_putchar(str[i]);
-}
+while (*str)
+_putchar(*str++);
+_putchar('\n');
 }
